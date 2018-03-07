@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Posts</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Content</th>
+        <th>Data</th>
+        <th>Content</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let post of posts">
+        <td>{{ post.title }}</td>
+        <td>{{ post.content }}</td>
+        <td>{{ post.data}}</td>
+        <td><img src="{{ post.img }}"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
