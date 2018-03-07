@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar{
+    text-align: center;
+}
+.search{
+    margin-top: 25px;
+}
+footer {
+    text-align: center;
+    padding-top: 5px;
+    background-color: cornflowerblue;
+    height: 40px;
+    color: white;
+    font-size:2em;
+  }
