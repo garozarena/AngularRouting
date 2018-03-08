@@ -1,0 +1,23 @@
+{
+    "posts": [
+        {
+            "title": "titulo1",
+            "content": "contenido1",
+            "date": "08/03/2018",
+            "image": "/assets/fantasy.jpg"
+        },
+        {
+            "title": "titulo2",
+            "content": "contenido2",
+            "date": "02/04/2018",
+            "image": "/assets/fantasy.jpg"
+        }
+    ],
+    "forms":[
+        {
+            "correo":"email1@gmail.com",
+            "pregunta":"Pregunta 1?",
+            "fecha": "01/01/1998"
+        }
+    ]
+}
