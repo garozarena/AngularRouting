@@ -12,4 +12,7 @@ footer {
     height: 40px;
     color: white;
     font-size:2em;
-  }
+}
+.popover{
+    max-width: 370px;
+}

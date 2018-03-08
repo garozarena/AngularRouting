@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  public isCollapsed = false;
+  name = 'World';
+
   constructor() { }
 
   ngOnInit() {

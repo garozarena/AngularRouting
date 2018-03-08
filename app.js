@@ -5,6 +5,7 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 
 var post = require('./routes/post');
+var form = require('./routes/form');
 var app = express();
 var mongoose = require('mongoose');
 
@@ -19,8 +20,12 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ 'extended': 'false' }));
 app.use(express.static(path.join(__dirname, 'dist')));
+
 app.use('/blog', express.static(path.join(__dirname, 'dist')));
 app.use('/post', post);
+
+app.use('/contacto', express.static(path.join(__dirname, 'dist')));
+app.use('/form', form);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

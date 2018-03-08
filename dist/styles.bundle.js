@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n.navbar{\n    text-align: center;\n}\n.search{\n    margin-top: 25px;\n}\nfooter {\n    text-align: center;\n    padding-top: 5px;\n    background-color: cornflowerblue;\n    height: 40px;\n    color: white;\n    font-size:2em;\n  }"
+module.exports = "/* You can add global styles to this file, and also import other style files */\n.navbar{\n    text-align: center;\n}\n.search{\n    margin-top: 25px;\n}\nfooter {\n    text-align: center;\n    padding-top: 5px;\n    background-color: cornflowerblue;\n    height: 40px;\n    color: white;\n    font-size:2em;\n}\n.popover{\n    max-width: 370px;\n}"
 
 /***/ }),
 

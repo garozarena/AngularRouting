@@ -1,3 +1,12 @@
-<footer class="col-12 fixed-bottom">
-    <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>Política de empresa
+<footer class="row fixed-bottom">
+    <div class="col-4">
+        <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>Política de empresa
+    </div>
+    <div class="col">
+        <ng-template #popContent><iframe width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/ac23f7d4-a0be-4828-86f0-ca2fafc6acca">
+        </iframe></ng-template>
+        <button type="button" class="btn btn-outline-secondary" [ngbPopover]="popContent" style="color:white">
+        ¿Puedo ayudarte?
+        </button>
+    </div>
 </footer>
