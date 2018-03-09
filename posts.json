@@ -1,23 +1,50 @@
 {
-    "posts": [
-        {
-            "title": "titulo1",
-            "content": "contenido1",
-            "date": "08/03/2018",
-            "image": "/assets/fantasy.jpg"
-        },
-        {
-            "title": "titulo2",
-            "content": "contenido2",
-            "date": "02/04/2018",
-            "image": "/assets/fantasy.jpg"
-        }
-    ],
-    "forms":[
-        {
-            "correo":"email1@gmail.com",
-            "pregunta":"Pregunta 1?",
-            "fecha": "01/01/1998"
-        }
-    ]
+  "forms" : {
+    "0" : {
+      "correo" : "email1@gmail.com",
+      "fecha" : "01/01/1998",
+      "pregunta" : "Pregunta 1?"
+    },
+    "-L74p8nMQMajGQsQz2ZY" : {
+      "correo" : "error@asdf",
+      "fecha" : "2018-03-24",
+      "pregunta" : "asdfasd"
+    },
+    "-L74qGejC-kI7-TePm1o" : {
+      "correo" : "error@asdf",
+      "fecha" : "2018-03-22",
+      "pregunta" : "asdfasdf?"
+    },
+    "-L75DPg9HEriKITxrI_9" : {
+      "correo" : "asfafds@asfas",
+      "fecha" : "2018-03-14",
+      "pregunta" : "hol1?"
+    },
+    "-L78zaIrMGejuyNKx-_A" : {
+      "correo" : "error@error",
+      "fecha" : "2018-03-13",
+      "pregunta" : "pregunta?"
+    },
+    "-L79JKnyJz65_jLp-tTC" : {
+      "correo" : "asdfasdf@asdfas",
+      "fecha" : "1993-08-31",
+      "pregunta" : "holoaaaa?"
+    },
+    "-L79JL4jEtKQkiF6uzdZ" : {
+      "correo" : "asdfasdf@asdfas",
+      "fecha" : "1993-08-31",
+      "pregunta" : "holoaaaa?"
+    }
+  },
+  "posts" : [ {
+    "content" : "contenido1",
+    "date" : "08/03/2018",
+    "image" : "/assets/fantasy.jpg",
+    "title" : "holaa"
+  }, {
+    "content" : "contenido2",
+    "date" : "02/04/2018",
+    "image" : "/assets/fantasy.jpg",
+    "title" : "titulo2"
+  } ]
 }
